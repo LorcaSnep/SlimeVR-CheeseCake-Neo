@@ -1,4 +1,6 @@
-This repository serves as an archive of my work with the Slime-VR Cheesecake trackers.  Having used these trackers for some time, I quite like them.  The hardware is well designed and the compact design of all the components makes everything extremely comfortable for long-term wear.
+To begin, this repository serves as an archive of my work relating to this project for the purposes of my university studies. All items in this repository are work in progress and are NOT finalized
+
+Having used a set of Cheesecake Blueberry trackers for some time, I quite like them.  The hardware is well designed and the compact design of all the components makes everything extremely comfortable for long-term wear.
 
 However, the ESP-12F processor is the one pain point that I have had with these trackers.  Of the set of 6 modules I purchased and installed on a set of 6 boards, half of them had connectivity issues.  Also, they are quite expensive to get from Digikey at almost 7 USD per piece.  As the ESP8266 has been discontinued by Espressif, there is a limit for how long the ESP12F will be available.  I began this project with two goals; design a new board based on the ESP32-C3, utilize parts only from Digikey to limit the impact of tarrifs, and keep the form factor the same so the boards can be swapped into existing cases.
 
@@ -8,26 +10,14 @@ After a couple weeks of work, this was the result:
 
 ![Error](https://github.com/LorcaSnep/SlimeVR-CheeseCake-Neo/blob/main/Images/Cheesecake%20Neo%20Blueberry%20Back.PNG)
 
+For the most part, a lot of the hardware design is complete.  There are a couple edits that I would like to make to the schematic and the silkscreens are not finalized.
+
+I have based this design around the ESP32-C3-WROOM-02-N4 processor.  This is paired with a CP2102 to handle USB communication, and an LSM6DSVTR IMU (hence the design having the "Blueberry" name.
 
 
 
 
-
-![Intro-GIF](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-GIF.gif) 
-
-# SlimeVR-CheeseCake
-Very delicious Cheesecake. Designed by Sorakage
-
-# OverView
-"CheeseCake" is a Lighter, portable and better looking full body tracking device.   
-Based on SlimeVR   
-With 8-port charging dock, eliminating wiring troubles.   
-# CAUTION：   
-**When you place an order in JLCPCB, remember change the PCB thickness to 1mm!**    
-    
-**Before flashing the firmware, the board must be connected to the battery.**    
-This design removes the protection diode (to prevent Li-po battery overcharged while uploading firmware), and USB-5V is supplied to the battery via the on-board charging chip TP4057.    
-**The on-board charger will not output voltage without connected to the battery.**        
+       
 ## Extra Info:      
 Any kind of modification are welcome!         
 It can be even better if you can credit me on the modified PCB with [\[This LOGO\]](999-PictureFiles/SK-LOGO.png)     
