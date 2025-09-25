@@ -4,6 +4,9 @@ However, the ESP-12F processor is the one pain point that I have had with these 
 
 After a couple weeks of work, this was the result:
 
+![Error](https://github.com/LorcaSnep/SlimeVR-CheeseCake-Neo/blob/main/Images/Cheesecake%20Neo%20Blueberry%20Front.PNG)
+
+![Error](https://github.com/LorcaSnep/SlimeVR-CheeseCake-Neo/blob/main/Images/Cheesecake%20Neo%20Blueberry%20Back.PNG)
 
 
 
